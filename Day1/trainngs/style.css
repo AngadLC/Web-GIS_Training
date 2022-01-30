@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#red {
+    background: red;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    cursor: all-scroll;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#green {
+    background: green;
+    width: 200px;
+    height: 200px;
+}
+
+#green:hover {
+    color: white;
+}
+
+.gesan {
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 100;
+}
