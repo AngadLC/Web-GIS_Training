@@ -1,4 +1,5 @@
 https://releases.jquery.com/
 https://geojson.io/
+https://github.com/kaditya97/leaflet_webgis/
 https://kaditya97.github.io/leaflet_webgis/
 https://turfjs.org/

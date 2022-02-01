@@ -18,7 +18,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // $.getJSON("pokhara.geojson", function (data) {
 //     L.geoJson(data).addTo(map);
-//     console.log(turf.area(data));
 // });
 
 // var features = turf.points([
@@ -29,3 +28,16 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   
 // var center = turf.center(features);
 // L.geoJson(center).addTo(map);
+
+$.getJSON("point.geojson", function (data) {
+    var data1 = L.geoJson(data);
+    var features = data1.toGeoJSON();
+    // var center = turf.center(features);
+    var buffered = turf.buffer(features, 500, {units: 'meters'});
+    L.geoJson(buffered).addTo(map);
+});
+
+// var point = turf.point([83.9721, 28.2613]);
+// var point1 = L.point([28.2613, 83.9721]);
+// var buffered = turf.buffer(point1.toGeoJSON(), 500, {units: 'meters'});
+// L.geoJson(point).addTo(map);
