@@ -12,7 +12,7 @@ var drawControl = new L.Control.Draw({
         featureGroup : drawItems
     },
     draw:{
-        <!-- polygon:false -->
+        // polygon:false
     }
 })
 map.addControl(drawControl)
@@ -20,5 +20,5 @@ map.addControl(drawControl)
 map.on('draw:created',function(e){
     console.log(e.layer)
     map.addLayer(e.layer)
-    <!-- console.log("hi draw finish") -->
+    //console.log("hi draw finish")
 })
