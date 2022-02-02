@@ -12,7 +12,7 @@ var drawControl = new L.Control.Draw({
         featureGroup : drawItems
     },
     draw:{
-        polygon:false
+        <!-- polygon:false -->
     }
 })
 map.addControl(drawControl)
