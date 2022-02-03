@@ -1,1 +1,5 @@
-#map { height: 480px; }
+#map { height: calc(100vh - 58px); }
+
+#export {
+    display: none;
+}
