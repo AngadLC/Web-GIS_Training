@@ -1,5 +1,11 @@
-why not to use gdal 3.4.1 and python >3.10 version :- https://gis.stackexchange.com/questions/417763/gdal-3-4-0-not-working-with-python-error-use-path-for-gdal-python-yes
+why not to use gdal 3.4.1 and python >3.8 version :- https://gis.stackexchange.com/questions/417763/gdal-3-4-0-not-working-with-python-error-use-path-for-gdal-python-yes
 create env :- conda create --name name_env python=3.8 anaconda
 
 install Packages :- 
 conda install -c conda-forge gdal
+
+Few of important link
+https://developmentseed.org/sat-ml-training/
+https://automating-gis-processes.github.io/site/index.html
+https://www.earthdatascience.org/
+https://geemap.org/
