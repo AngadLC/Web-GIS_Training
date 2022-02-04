@@ -1,0 +1,5 @@
+django-admin startproject webgis
+python manage.py runserver
+python manage.py startapp map
+python manage.py makemigrations map
+python manage.py migrate
